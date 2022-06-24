@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(0, 60, 255);
+    padding: 25px;
+}
+
+
+header nav a{
+    color: rgb(134, 134, 144));
+    text-decoration:none;
+    font-size: 26px;
+    margin-right: 52px;
+}
+
+#foto-pedro{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('./imagens/familia.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#foto-pedro h1{
+    font-size: 60px;
+    font-style: solid;
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+#historia{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 60, 255);
+}
+
+#historia h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+#historia p{
+    font-size: 30px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+#historia img{
+    margin: auto;
+    display: block;
+}
+
+#formacao{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 60, 255);
+}
+
+#formacao h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(134, 134, 144);
+}
+
+tr{
+    background-color: rgb(134, 134, 144);
+    border: 1px solid black
+}
+
+th{
+    padding: 8px 32px;
+    border: 1px solid black
+
+}
+
+td{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid black;
+}
+
+tr, td, th, td, table, thead, tbody{
+    border-collapse: collapse;
+}
+
+table{
+    margin: 200px 500px;
+}
+
+#interesses{
+    width: 100vw;
+    height: 100vh;
+}
+
+#interesses{ 
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 60, 255);
+}
+
+#interesses h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(134, 134, 144);
+}
+
+#interesses ul li{
+    font-size: 50px;
+    margin: 100px;
+}
+
+#objetivos{
+    width: 100vw;
+    height: 100vh;
+}
+
+#objetivos{ 
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 60, 255);
+}
+
+#objetivos h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(134, 134, 144);
+}
+
+#objetivos ol li{
+    font-size: 50px;
+    margin: 100px;
+}
+
+#duvidas{ 
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 100px;
+    background-color: rgb(0, 60, 255);
+}
+
+#duvidas h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(134, 134, 144);
+}
+
+#duvidas form{
+    width: 50%;
+}
+
+#duvidas form input{
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 32px;
+    font-size: 32px;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+}
+
+#duvidas form button{
+    background-color: #243377;
+    padding: 12px 32px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+
+
